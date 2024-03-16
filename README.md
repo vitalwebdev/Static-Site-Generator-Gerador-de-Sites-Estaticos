@@ -1,1 +1,1 @@
-# Static-Site-Generator-Gerador-de-Sites-Estaticos
+# Static-Site-Generator / Gerador-de-Sites-Estaticos
