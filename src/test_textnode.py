@@ -30,7 +30,7 @@ class TestTextNode(unittest.TestCase):
         node2 = TextNode("This is a text node2", text_type_text)
         self.assertNotEqual(node, node2)
 
-    # # Este teste cria dois objetos TextNode com urls e verifica se são iguais.
+    # # Este teste cria dois objetos TextNode com tipos iguais com urls e verifica se são iguais.
     def test_eq_url(self):
         node = TextNode("This is a text node", text_type_italic, "https://www.boot.dev")
         node2 = TextNode("This is a text node", text_type_italic, "https://www.boot.dev")
